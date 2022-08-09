@@ -8,7 +8,7 @@ window.addEventListener('scroll', function () {
 let burgerIcon = document.querySelector(".icon-burger-menu");
 let burgerMenu = document.querySelector(".burger-sections");
 let crossIcon = document.querySelector(".cross-burger-menu");
-
+let burgerSections = document.querySelector("#burger-sections");
 
 burgerIcon.onclick = () => {
     burgerMenu.classList.add("active");
@@ -20,6 +20,12 @@ burgerIcon.onclick = () => {
     burgerMenu.classList.remove("active");
     crossIcon.classList.remove("active");
     burgerIcon.classList.remove("hide");
+  };
+
+  burgerSections.onclick = () => {
+    burgerIcon.classList.remove("hide");
+    crossIcon.classList.remove("active");
+    burgerMenu.classList.remove("active");
   };
 
 

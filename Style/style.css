@@ -45,8 +45,11 @@ header {
 .header-sections {
   font-family: "Roboto";
   display: flex;
-  color: white;
   cursor: pointer;
+}
+.header-sections a {
+  color: white;
+  text-decoration: none;
 }
 .section{
     margin-left: 30px;
@@ -57,10 +60,12 @@ header {
 .icon-burger-menu{
   display: none;
   font-size: 1.5rem;
+  color: white;
 }
 .cross-burger-menu{
   display: none;
   font-size: 1.5rem;
+  color: white;
 }
 .burger-sections a{
   display: flex;
@@ -68,10 +73,11 @@ header {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  color: white;
   cursor: pointer;
   font-family: "Roboto";
   line-height: 1.6rem;
+  text-decoration: none;
+  color: white;
 }
 .first-bg {
   width: 100%;
@@ -108,10 +114,7 @@ header.scrolling-active {
 .scrolling-active .black-logo {
   display: block;
 }
-.scrolling-active .header-sections {
-  color: #18191b;
-}
-.scrolling-active .burger-sections a {
+.scrolling-active .header-sections,.scrolling-active .burger-sections a, .scrolling-active .icon-burger-menu, .scrolling-active .cross-burger-menu  {
   color: #18191b;
 }
 
@@ -186,7 +189,7 @@ header.scrolling-active {
   font-family: "Jockey One";
   margin-left: 5.5rem;
 }
-#about-me h1{
+.about-me h1{
   margin-top: 2rem;
 }
 .box{
@@ -216,9 +219,12 @@ header.scrolling-active {
 
 /* SKILLS */
 #skills{
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
-#skills h3{
+.skills{
+  margin-top: 2rem;
+}
+.skills h3{
   font-size: 2.5rem;
   color: white;
   font-family:'Jockey one';
@@ -251,6 +257,10 @@ font-family: 'Roboto';
 .logo:hover{
   color:white;
   transition: 0.5 ease;
+}
+
+.projects{
+  margin-top:50px;
 }
 
 .cards-container{
@@ -321,6 +331,11 @@ font-family: 'Roboto';
   color: var(--bg-color);
 }
 
+#home, #skills, #about-me, #projects{
+  color: var(--bg-color);
+}
+
+
 /* FOOTER */
 footer{
   margin-top: 50px;
@@ -370,6 +385,10 @@ footer p{
 @media screen and (max-width: 685px) {
   .js{
     margin-top: 25px;
+  }
+  .subtitle{
+    text-align: center;
+    margin: 0;
   }
 }
 
@@ -434,17 +453,15 @@ footer p{
 .vertical-line{
   display: none;
 }
+.main{
+  top:35vh;
+}
+.name{
+  line-height:3.5rem;
+  margin-bottom: 20px;
+}
+}
 
-
-@media screen and (max-width: 850px){
-  .main{
-    top:35vh;
-  }
-  .name{
-    line-height:3.5rem;
-    margin-bottom: 20px;
-  }
-}}
 
 @media screen and (max-width: 360px){
   .main{
