@@ -4,7 +4,6 @@
   /*  */
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -85,6 +84,7 @@ header {
   background: url("/Assets/FirstBG-Desktop.jpg") center no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 .first-bg::after {
   content: "";
@@ -97,7 +97,7 @@ header {
 }
 
 .scrolling-active {
-  background-color: #fff;
+  background-color:rgb(165, 165, 165);
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
   transition: 0.8s ease;
   
@@ -114,7 +114,7 @@ header.scrolling-active {
 .scrolling-active .black-logo {
   display: block;
 }
-.scrolling-active .header-sections,.scrolling-active .burger-sections a, .scrolling-active .icon-burger-menu, .scrolling-active .cross-burger-menu  {
+.scrolling-active .header-sections a,.scrolling-active .burger-sections a, .scrolling-active .icon-burger-menu, .scrolling-active .cross-burger-menu  {
   color: #18191b;
 }
 
@@ -133,7 +133,7 @@ header.scrolling-active {
 
 .name {
   text-align: center;
-  font-family: "Jockey One";
+  font-family: "Bebas Neue";
   font-size: 4.6rem;
   overflow-y: hidden;
  
@@ -164,7 +164,7 @@ header.scrolling-active {
   z-index: 5;
   display: flex;
   flex-direction: column;
-  bottom:0;
+  bottom:10%;
   /* right: 6%; */
   margin-left: 30px;
   /* position: fixed; */
@@ -186,7 +186,7 @@ header.scrolling-active {
 .subtitle{
   color: white;
   font-size: 4rem;
-  font-family: "Jockey One";
+  font-family: "Bebas Neue";
   margin-left: 5.5rem;
 }
 .about-me h1{
@@ -292,12 +292,14 @@ font-family: 'Roboto';
 .information{
   margin-left: 20px;
 }
-.information .status{
-  /* margin-left: 70%; */
+.information .status-finished{
   color: rgb(153, 255, 0)
 }
+.information .status-working{
+  color: rgb(255, 251, 20)
+}
 .information .title{
-  font-family: 'Jockey one';
+  font-family: 'Bebas Neue';
   font-size: 2rem;
 }
 .information .technologies{
@@ -325,6 +327,9 @@ font-family: 'Roboto';
   text-decoration: none;
   color: white;
   margin: 0 15px;
+}
+.buttons i{
+margin-right: 5px;
 }
 .buttons a:hover{
   background-color: #9d9d9d;
