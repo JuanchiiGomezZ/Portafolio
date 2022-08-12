@@ -97,7 +97,7 @@ header {
 }
 
 .scrolling-active {
-  background-color:rgb(165, 165, 165);
+  background-color:white;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
   transition: 0.8s ease;
   
@@ -381,7 +381,6 @@ footer p{
   .sass{
     margin-top: 25px;
   }
-
   .card{
     display: flex;
     flex-direction: column;
@@ -431,6 +430,9 @@ footer p{
     margin-top: 7px;
     text-align-last: center;  
     margin: 0 auto;}
+}
+.information{
+  margin-top: 7px;
 }
 
 @media screen and (max-width: 850px) {
