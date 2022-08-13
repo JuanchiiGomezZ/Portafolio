@@ -1,50 +1,222 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--FONTS  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=DynaPuff:wght@600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e2445552bb.js" crossorigin="anonymous"></script>
-    <!-- CSS -->
-    <link rel="icon" href="/Assets/iconPage.png">
-    <!-- ICON PAGE -->
-    <link rel="stylesheet" href="/Style/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/e2445552bb.js" crossorigin="anonymous"></script>
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jockey+One&family=Roboto&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="/Style/style.css">
+  <!--WEB ICON-->
+  <link rel="icon" href="/Assets/Title-Logo.png">
+  <title>My Portafolio</title>
 </head>
+
 <body>
-    <header>
-        <div class="title">
-            <i class="fa-solid fa-xmark" id="close-menu"></i>
-            <a href="#"><h1>TRiVIALiS</h1></a>
-            <img src="/Assets/Logo.png">
+  <header>
+    <div class="nav">
+      <img src="Assets/Logo-White.png" width="60px" class="white-logo logo">
+      <img src="Assets/Logo-Black.png" width="60px" class="black-logo logo">
+      <div class="header-sections">
+        <a href="#home" class="section">Home</a>
+        <a href="#about-me" class="section">About Me</a>
+        <a href="#skills" class="section">Skills</a>
+        <a href="#projects" class="section">Projects</a>
+        <a href="#"class="section">Contact</a>
+        <i href="#"class="fa-solid fa-bars icon-burger-menu"></i>
+        <i class="fa-solid fa-x cross-burger-menu"></i>
+      </div>
+    </div>
+    <div class="burger-sections" id="burger-sections">
+      <a href="#home">Home</a>
+      <a href="#about-me">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#home">Contact</a>
+    </div>
+
+  </header>
+  <main>
+  <div id="home"class="first-bg">
+    <div class="main">
+      <h1 class="name">Juan Manuel Gomez Omil</h1>
+      <span class="typed"></span>
+    </div>
+    <a href="#about"><i id="about" class="fa-solid fa-angle-down down"></i></a>
+    <div class="socials">
+      <a target="_blank" href="https://twitter.com/JuanchiiGomezz"><i class="fa-brands fa-twitter"></i></a>
+      <a target="_blank" href="https://github.com/JuanchiiGomezZ"><i class="fa-brands fa-github"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/juan-manuel-gomez-omil-b8292a1ba/"><i class="fa-brands fa-linkedin"></i></a>
+    <!-- <div class="vertical-line"></div> -->
+    </div>
+  </div>
+
+  <p id="about-me">.</p>
+  <div class="about-me">
+    <h1 class="subtitle">About Me</h1>
+    <div class="box">
+      <img src="https://conceptodefinicion.de/wp-content/uploads/2015/03/hombre.jpg">
+      <div class="description">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam deleniti laudantium itaque tempore
+          cum aut, quisquam distinctio eaque sequi, unde, dolor accusamus ipsum?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam deleniti laudantium itaque tempore
+          cum aut, quisquam distinctio eaque sequi, unde, dolor accusamus ipsum?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam deleniti laudantium itaque tempore
+          cum aut, quisquam distinctio eaque sequi, unde, dolor accusamus ipsum?</p>
+      </div>
+    </div>
+  </div>
+  <p id="skills">.</p>
+  <div class="skills">
+    <h1 class="subtitle">Skills</h1>
+    <div class="knowledge">
+      <h3>Knowledge</h3>
+      <div class="logos">
+        <div class="html logo"><img src="Assets/html-5.png">
+          <p>HTML5</p>
         </div>
-    </header>
-    <main>      
-        <i class="fa-solid fa-angles-right" id="open-menu"></i>
-        <div id="stats">
-
+        <div class="css logo"><img src="Assets/css-3.png">
+          <p>CSS3</p>
         </div>
-        <div id="container">
-  
+        <div class="js logo"><img src="Assets/js.png">
+          <p>Javascript</p>
         </div>
-        <h1 class="wrong message">WRONG</h1>
-        <h1 class="right message">RIGHT</h1>
-    </main>
+        <div class="bootstrap logo"><img src="/Assets/Bootstrap.png" width="150px">
+          <p>Bootstrap</p>
+        </div>
+        <div class="sass logo"><img src="/Assets/Sass.png" width="150px">
+          <p>Sass</p>
+        </div>
+      </div>
+    </div>
+    <div class="interested">
+      <h3>Interested</h3>
+      <div class="logos">
+        <div class="logo"><img src="Assets/react.png">
+          <p>React</p>
+        </div>
+        <div class="logo"><img src="Assets/typescript.png">
+          <p>Typescript</p>
+        </div>
+        <div class="js logo"><img src="Assets/python.png">
+          <p>Python</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p id="projects">.</p>
+  <div class="projects">
+    <h1 class="subtitle">Projects</h1>
+    <div class="cards-container">
 
-    <footer>
-        <img src="/Assets/olas.svg">
-    </footer>
+      <!-- ECOMERCE LENO -->
+      <div class="card">
+        <img src="/Assets/Leno.png">
+        <div class="information">
+          <p class="status-finished">Finished</p>
+          <h4 class="title">Ecomerce</h4>
+          <div class="technologies">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste hic expedita</p>
+          <div class="buttons">
+            <a class="live" target="_blank" href="https://leno-juanchiigomezz.vercel.app/"><i class="fa-solid fa-share"></i> Live</a>
+            <a class="repo" target="_blank" href="https://github.com/JuanchiiGomezZ/LENO"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- WEATHER APP -->
+      <div class="card">
+        <img src="/Assets/WeatherApp.png">
+        <div class="information">
+          <p class="status-working">Currently Working On</p>
+          <h4 class="title">Weather App</h4>
+          <div class="technologies">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <p class="description">Weather website where you can search the climate of most states, countries and capitals of the world</p>
+          <div class="buttons">
+            <a class="live" target="_blank" href="https://weatherapp-juanchiigomezz.vercel.app/"><i class="fa-solid fa-share"></i> Live</a>
+            <a class="repo" target="_blank" href="https://github.com/JuanchiiGomezZ/WeatherApp"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PORTAFOLIO -->
+      <div class="card">
+        <img src="/Assets/Portafolio.png">
+        <div class="information">
+          <p class="status-working">Currently Working On</p>
+          <h4 class="title">Portafolio</h4>
+          <div class="technologies">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste hic expedita</p>
+          <div class="buttons">
+            <a class="live" target="_blank" href="https://portafolio-juanchiigomezz.vercel.app/"><i class="fa-solid fa-share"></i> Live</a>
+            <a class="repo" target="_blank" href="https://github.com/JuanchiiGomezZ/Portafolio"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRIVIALIS -->
+      <div class="card">
+        <img src="/Assets/Trivialis.png">
+        <div class="information">
+          <p class="status-working">Currently Working On</p>
+          <h4 class="title">Trivialis</h4>
+          <div class="technologies">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <p class="description">Quiz game website, made it to learn and a mode to practice the manage of APIs</p>
+          <div class="buttons">
+            <a class="live" target="_blank" href="https://trivialis.vercel.app/"><i class="fa-solid fa-share"></i> Live</a>
+            <a class="repo" target="_blank" href="https://github.com/JuanchiiGomezZ/Trivialis"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <div id="contact">
+    <h1 class="subtitle">Contact</h1>
+    <div class="contact-conainer">
+      <a class="contact-logo" target="_blank" href="https://www.linkedin.com/in/juan-manuel-gomez-omil-b8292a1ba/"><img src="Assets/linkedin.png"></a>
+      <a class="contact-logo" target="_blank" href="https://wa.me/5493815751992"><img src="Assets/whatsapp.png" ></a>
+      <a class="contact-logo" target="_blank" href="mailto: JuanManuelGomezOmil@Gmail.com"><img src="Assets/email.png"></a>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="horizontal-line"></div>
+  <p>Designed and Devoloped by Juan Manuel Gomez Omil</p>
+</footer>
 
 
-    <script src="/Javascript/main.js"></script>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="/Javascript/main.js"></script>
 </body>
+
 </html>
-
-
-
-<!-- SISTEMA DE PUNTOS -->
-<!-- SUMA LA MAYOR RACHA -->
