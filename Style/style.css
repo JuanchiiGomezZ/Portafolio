@@ -165,9 +165,7 @@ header.scrolling-active {
   display: flex;
   flex-direction: column;
   bottom:10%;
-  /* right: 6%; */
   margin-left: 30px;
-  /* position: fixed; */
 }
 .socials i{
   font-size: 1.8rem;
@@ -183,6 +181,9 @@ header.scrolling-active {
 }
 
 /* ABOUT ME */
+.about-me{
+  overflow-y: hidden;
+}
 .subtitle{
   color: white;
   font-size: 4rem;
@@ -208,12 +209,12 @@ header.scrolling-active {
    color: white;
    font-family: 'Roboto';
    margin-left: 40px;
-  text-align: justify;
-  font-size: 1.1rem;
+  /* text-align: justify; */
+  font-size: 1.2rem;
 }
 .box img{
   border-radius: 10px;
-  width:80%
+  width:65%
 }
 
 
@@ -223,6 +224,7 @@ header.scrolling-active {
 }
 .skills{
   margin-top: 2rem;
+  overflow-y: hidden;
 }
 .skills h3{
   font-size: 2.5rem;
@@ -263,7 +265,7 @@ font-family: 'Roboto';
   margin-top:50px;
 }
 
-.cards-container{
+#cards-container{
   width: 90%;
   display: flex;
   justify-content: center;
@@ -341,15 +343,52 @@ margin-right: 5px;
 }
 
 /* CONTACT */
+#contact{
+  margin-top: 4rem;
+}
+form input, textarea{
+  width: 70%;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #212529;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: white;
+  padding-left: 7px;
+}
+form textarea{
+  min-height: 8rem;
+  max-height: 20rem;
+  max-width: 70%;
+  min-width: 70%;
+  padding-top: 5px;
+}
+form input:focus {
+  outline: none;
+}
+form #button{
+  background-color: #383f45;
+  cursor: pointer;
+}
+form #button:hover{
+  background-color: white;
+  color: #2c3237;
+  transition: 0.3s;
+}
 .contact-conainer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 .contact-logo img{
   margin: 0 30px;
-  width: 100px;
+  width: 80px;
   cursor: pointer;
 }
 
@@ -375,6 +414,18 @@ footer p{
 
 
 @media screen and (max-width: 1160px) {
+  .box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .box img{
+    width: 70%
+  }
+  .box .description{
+    margin-top: 30px;
+    width: 70%;
+  }
   .bootstrap{
     margin-top: 25px;
   }
@@ -389,6 +440,13 @@ footer p{
    /*  margin-left: 80%; */
     margin-top: 10px;
   }
+  form input, textarea{
+    width: 80%;
+  }
+  form textarea{
+    max-width: 80%;
+    max-width: 80%;
+  }
 }
 @media screen and (max-width: 855px) {
   .logos{
@@ -396,6 +454,9 @@ footer p{
   }
   .logos img{
     margin: 0px 25px;
+  }
+  .contact-logo img{
+    width: 60px;
   }
 }
 @media screen and (max-width: 685px) {
@@ -414,18 +475,7 @@ footer p{
 
 
 @media screen and (max-width: 1100px) {
-  .box{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-  }
-  .box img{
-    width: 90%
-  }
-  .box .description{
-    margin-top: 30px;
-    width: 90%;
-  }
+
   .box p{
     margin-top: 7px;
     text-align-last: center;  

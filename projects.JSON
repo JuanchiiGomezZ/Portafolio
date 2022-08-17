@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Ecomerce LENO",
+      "image": "/Assets/Leno.png",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste hic expedita",
+      "tech1": "fa-brands fa-html5",
+      "tech2": "fa-brands fa-css3-alt",
+      "tech3": "fa-brands fa-js",
+      "btnLive": "https://leno-juanchiigomezz.vercel.app/",
+      "btnRepo": "https://github.com/JuanchiiGomezZ/LENO"
+    },
+    {
+        "title": "Weather App",
+        "image": "/Assets/WeatherApp.png",
+        "status": "Currently Working On",
+        "description": "Weather website where you can search the climate of most states, countries and capitals of the worlda",
+        "tech1": "fa-brands fa-html5",
+        "tech2": "fa-brands fa-css3-alt",
+        "tech3": "fa-brands fa-js",
+        "btnLive": "https://weatherapp-juanchiigomezz.vercel.app/",
+        "btnRepo": "https://github.com/JuanchiiGomezZ/WeatherApp"
+      },
+      {
+        "title": "Trivialis",
+        "image": "/Assets/Trivialis.png",
+        "status": "Currently Working On",
+        "description": "Quiz game website, made it to learn and a mode to practice the manage of APIs",
+        "tech1": "fa-brands fa-html5",
+        "tech2": "fa-brands fa-css3-alt",
+        "tech3": "fa-brands fa-js",
+        "btnLive": "https://trivialis.vercel.app/",
+        "btnRepo": "https://github.com/JuanchiiGomezZ/Trivialis"
+      }
+]
