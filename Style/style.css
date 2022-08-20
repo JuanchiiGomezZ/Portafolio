@@ -86,6 +86,23 @@ header {
   position: relative;
   background-attachment: fixed;
 }
+.curriculum{
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+.curriculum a{
+  color: white;
+  text-decoration: none;
+}
+.curriculum:hover{
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+.curriculum img{
+  margin-left: 5px;
+}
 .first-bg::after {
   content: "";
   width: inherit;
@@ -117,7 +134,9 @@ header.scrolling-active {
 .scrolling-active .header-sections a,.scrolling-active .burger-sections a, .scrolling-active .icon-burger-menu, .scrolling-active .cross-burger-menu  {
   color: #18191b;
 }
-
+.scrolling-active .curriculum a{
+  color: black;
+}
 
 .main{
     color: white;
