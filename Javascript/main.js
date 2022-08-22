@@ -73,7 +73,7 @@ const projects = async () => {
           </div>
           <p class="description">${datos[i].description}</p>
           <div class="buttons">
-            <a class="live" target="_blank" href="${datos[i].bntLive}"><i class="fa-solid fa-share"></i> Live</a>
+            <a class="live" target="_blank" href="${datos[i].btnLive}"><i class="fa-solid fa-share"></i>Live</a>
             <a class="repo" target="_blank" href="${datos[i].btnRepo}"><i class="fa-brands fa-github"></i> Source</a>
           </div>
         </div>
