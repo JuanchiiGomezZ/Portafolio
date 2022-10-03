@@ -4,6 +4,7 @@
   /*  */
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,9 @@
   text-decoration: none;
   overflow-x: hidden;
   font-size: 20px;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -44,19 +48,20 @@ header {
 .header-sections {
   font-family: "Roboto";
   display: flex;
+  overflow: hidden;
   /*   cursor: pointer; */
 }
 .header-sections a {
   color: white;
   text-decoration: none;
+  
 }
 .header-sections a:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.1, 1.1);
   transition: 0.4s;
 }
 .section {
   margin: 0 20px;
-  /* margin-left: 30px; */
 }
 .burger-sections {
   display: none;
@@ -118,7 +123,8 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  
+  /* z-index: 2; */
 }
 
 .scrolling-active {
@@ -164,7 +170,7 @@ header.scrolling-active {
   font-family: "Bebas Neue";
   font-size: 4.6rem;
   overflow-y: hidden;
-  padding:5px
+/*   padding: 5px; */
 }
 .subName {
   text-align: center;
@@ -455,31 +461,32 @@ footer p {
   .box img {
     width: 80%;
   }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20%;
+  }
+  .socials i {
+    margin: 0 12px;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .main {
+    top: 35vh;
+  }
+  .name {
+    line-height: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
 }
 
-.socials {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 20%;
-}
-.socials i {
-  margin: 0 12px;
-}
-.vertical-line {
-  display: none;
-}
-.main {
-  top: 35vh;
-}
-.name {
-  line-height: 3.5rem;
-  margin-bottom: 20px;
-}
 
 @media screen and (min-width: 1500px) {
   .box img {
@@ -581,4 +588,15 @@ footer p {
   .name {
     font-size: 3.5rem;
   }
+}
+
+
+video {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }

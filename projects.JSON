@@ -1,6 +1,17 @@
 [
     {
-      "title": "Ecomerce LENO",
+      "title": "Apple-Concept Ecomerce",
+      "image": "/Assets/Apple-concept.png",
+      "status": "Finished",
+      "description": "Project made for the end of CODERHOUSE ReactJS course. I wanted to make an apple ecommerce but not copy it 100%, but put part of my imagination and designs.",
+      "tech1": "fa-brands fa-sass",
+      "tech2": "fa-brands fa-js",
+      "tech3": "fa-brands fa-react",
+      "btnLive": "##",
+      "btnRepo": "https://github.com/JuanchiiGomezZ/Apple-Concept"
+    },
+    {
+      "title": "LENO Ecomerce",
       "image": "/Assets/Leno.png",
       "status": "Finished",
       "description": "Project made for the end of CODERHOUSE Javascript course.Totally designed and developed by me, the ecommerce works completely except the backend part",
