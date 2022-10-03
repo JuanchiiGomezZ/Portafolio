@@ -1,7 +1,7 @@
 [
     {
       "title": "Apple-Concept Ecomerce",
-      "image": "/Assets/Apple-concept.png",
+      "image": "./Assets/Apple-Concept.png",
       "status": "Finished",
       "description": "Project made for the end of CODERHOUSE ReactJS course. I wanted to make an apple ecommerce but not copy it 100%, but put part of my imagination and designs.",
       "tech1": "fa-brands fa-sass",
