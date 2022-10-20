@@ -3,12 +3,23 @@
       "title": "Apple-Concept Ecomerce",
       "image": "./Assets/Apple-Concept.png",
       "status": "Finished",
-      "description": "Project made for the end of CODERHOUSE ReactJS course. I wanted to make an apple ecommerce but not copy it 100%, but put part of my imagination and designs.",
+      "description": "Project made for the end of CODERHOUSE ReactJS course. I wanted to make an apple ecommerce but not copy it 100%, but put part of my imagination and designs. The database used was Firebase",
       "tech1": "fa-brands fa-sass",
       "tech2": "fa-brands fa-js",
       "tech3": "fa-brands fa-react",
       "btnLive": "https://apple-concept.vercel.app/",
       "btnRepo": "https://github.com/JuanchiiGomezZ/Apple-Concept"
+    },
+    {
+      "title": "React Native CRUD on Firebase",
+      "image": "./Assets/CRUD.png",
+      "status": "Currently Working On",
+      "description": "CRUD App to practice and learn the database requests and React Native. You can create, see, upload and delete de users",
+      "tech1": "fa-brands fa-css3-alt",
+      "tech2": "fa-brands fa-js",
+      "tech3": "fa-brands fa-react",
+      "btnLive": "##",
+      "btnRepo": "https://github.com/JuanchiiGomezZ/ReactNative-CRUD"
     },
     {
       "title": "LENO Ecomerce",
@@ -21,10 +32,11 @@
       "btnLive": "https://leno-juanchiigomezz.vercel.app/",
       "btnRepo": "https://github.com/JuanchiiGomezZ/LENO"
     },
+    
     {
         "title": "Weather App",
         "image": "/Assets/WeatherApp.png",
-        "status": "Currently Working On",
+        "status": "Finished",
         "description": "Weather website where you can search the climate of most states, countries and capitals of the worlda",
         "tech1": "fa-brands fa-html5",
         "tech2": "fa-brands fa-css3-alt",
