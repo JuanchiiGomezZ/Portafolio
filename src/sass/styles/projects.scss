@@ -1,0 +1,84 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  .cardContainer {
+    background-color: $light-bg-color;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 1250px;
+    .projectImg {
+      /* aspect-ratio: 16/9; */
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 100%;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      .head {
+        display: flex;
+        flex-direction: column;
+        .status-finished {
+          color: rgb(153, 255, 0);
+        }
+        .status-notFinished {
+          color: rgb(255, 251, 20);
+        }
+        .title {
+          font-family: 'Bebas Neue';
+          font-size: 2.2em;
+          font-weight: bold;
+        }
+      }
+      .techs {
+        display: flex;
+        gap: 10px;
+        img {
+          width: 45px;
+        }
+      }
+      .description {
+        font-size: 18px;
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+        .actionBtn {
+          display: flex;
+          gap: 10px;
+          background-color: $bg-color;
+          padding: 12px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .cards {
+    .cardContainer {
+      display: flex;
+      flex-direction: column;
+      .projectImg {
+        border-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .content {
+        gap: 20px;
+      }
+    }
+  }
+}

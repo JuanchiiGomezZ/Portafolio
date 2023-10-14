@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Spring",
+    "subtitle": "Bootcamp - Globant",
+    "text": "",
+    "color": "#6db33f",
+    "icon": "https://i.postimg.cc/13gRYQhr/Spring-Logo.png",
+    "date": "Currently learning..."
+  },
+  {
+    "title": "JAVA",
+    "subtitle": "Bootcamp - Globant",
+    "text": "",
+    "color": "#ff0707",
+    "icon": "https://i.postimg.cc/V6wY60SK/JavaLogo.png",
+    "date": "Currently learning..."
+  },
+  {
+    "title": "React Native",
+    "subtitle": "Bootcamp - Global Learning",
+    "text": "",
+    "color": "#1163b5",
+    "icon": "https://i.postimg.cc/Xvdj4kvZ/ExpoLogo.png",
+    "date": ""
+  },
+  {
+    "title": "ReactJS",
+    "subtitle": "Bootcamp - Coderhouse",
+    "text": "",
+    "color": "#61dbfb",
+    "icon": "https://i.postimg.cc/Y0nkbXdP/React-Logo.png",
+    "date": ""
+  },
+  {
+    "title": "Javascript",
+    "subtitle": "Bootcamp - Coderhouse",
+    "text": "",
+    "color": "#f0dc4e",
+    "icon": "https://i.postimg.cc/tJCpd0NP/Java-Script-Logo.png",
+    "date": ""
+  },
+  {
+    "title": "CSS3",
+    "subtitle": "Autodidact",
+    "text": "",
+    "color": "#214ce5",
+    "icon": "https://i.postimg.cc/9Qvm6nc5/CSSLogo.png",
+    "date": ""
+  },
+  {
+    "title": "HTML5",
+    "subtitle": "Autodidact",
+    "text": "",
+    "color": "#e54c21",
+    "icon": "https://i.postimg.cc/cHcd81w0/HTMLLogo.png",
+    "date": ""
+  }
+]

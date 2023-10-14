@@ -1,0 +1,43 @@
+.bgHero {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    h1 {
+      font-size: 90px;
+      font-family: 'Bebas Neue';
+      text-align: center;
+      max-width: 90vw;
+    }
+    .socials {
+      display: flex;
+      gap: 15px;
+    }
+  }
+  .down {
+    position: absolute;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bgHero {
+    .presentation {
+      h1{
+        font-size: 70px;
+  
+      }
+    }
+  }
+}

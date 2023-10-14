@@ -1,0 +1,35 @@
+[
+
+  {
+    "name": "Javascript",
+    "icon": "https://i.postimg.cc/tJCpd0NP/Java-Script-Logo.png"
+  },
+  {
+    "name": "React JS",
+    "icon": "https://nextsoftware.io/files/images/logos/main/reactjs-logo.png"
+  },
+  {
+    "name": "React Native",
+    "icon": "https://i.postimg.cc/pdjmPSVt/expoLogo.png"
+  },
+  {
+    "name": "Redux",
+    "icon": "https://i.postimg.cc/ZYHCYpm0/redux-Logo.png"
+  },
+  {
+    "name": "Java",
+    "icon": "https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968313.png"
+  },
+  {
+    "name": "Spring",
+    "icon": "https://i.postimg.cc/TwqhDWW7/spring-logo.png"
+  },
+  {
+    "name": "Figma",
+    "icon": "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format"
+  }
+]

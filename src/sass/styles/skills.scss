@@ -1,0 +1,41 @@
+.skillsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  .knowledge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: 'Jockey One';
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+  .logosContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    .skillsCard {
+      text-align: center;
+      img {
+        width: 80px;
+      }
+      p {
+        opacity: 0;
+      }
+      &:hover {
+        p {
+          opacity: 1;
+          transition: ease 0.5s;
+        }
+      }
+    }
+  }
+}
