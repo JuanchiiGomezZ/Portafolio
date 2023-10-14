@@ -2,14 +2,16 @@ import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import knowledgeData from '../data/knowledge.json';
 import interestedData from '../data/interested.json';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section className="skillsContainer" id="skills">
-        <SectionTitle text={'SKILLS'} />
+        <SectionTitle text={t("header.skills")} />
         <div className="knowledge">
-          <h2>Knowledge</h2>
+          <h2>{t('skills.subTitle')}</h2>
           <div className="logosContainer">
             {knowledgeData.map((data, index) => (
               <div className="skillsCard" key={index}>

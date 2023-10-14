@@ -1,0 +1,28 @@
+{
+  "header": {
+    "home": "Home",
+    "aboutMe": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "aboutMe": {
+    "text": "I'm Juan Manuel, a Frontend developer from Argentina. I'm passionate about creating beautiful and functional websites, blending imagination with creativity to deliver exceptional user experiences. My portfolio showcases projects that reflect my professional approach and collaborative skills in multidisciplinary teams. I'm always eager to learn and stay updated with the latest design and web development trends. Excited to continue crafting impactful digital experiences and exploring new professional opportunities. Thanks for visiting my profile! make a site as beautiful and attractive as possible."
+  },
+  "skills": {
+    "subTitle": "Knowledge"
+  },
+  "projects": {
+    "finished": "Finished",
+    "notFinished": "Currently working on"
+  },
+  "contact": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
+  },
+  "footer": "Designed & Developed Juan Manuel Gomez Omil"
+}

@@ -1,0 +1,28 @@
+{
+  "header": {
+    "home": "Inicio",
+    "aboutMe": "Acerca de mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "resume": "Currículum"
+  },
+  "aboutMe": {
+    "text": "Soy Juan Manuel, un desarrollador frontend de Argentina. Me apasiona crear sitios web hermosos y funcionales, combinando la imaginación con la creatividad para brindar experiencias de usuario excepcionales. Mi portafolio muestra proyectos que reflejan mi enfoque profesional y mis habilidades de colaboración en equipos multidisciplinarios. Siempre estoy ansioso por aprender y mantenerme actualizado con las últimas tendencias en diseño y desarrollo web. Estoy emocionado de seguir creando experiencias digitales impactantes y explorando nuevas oportunidades profesionales. ¡Gracias por visitar mi perfil! Haz un sitio lo más hermoso y atractivo posible."
+  },
+  "skills": {
+    "subTitle": "Conocimientos"
+  },
+  "projects": {
+    "finished": "Finalizado",
+    "notFinished": "En desarrollo"
+  },
+  "contact": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "footer": "Diseñado y Desarrollado por Juan Manuel Gomez Omil"
+}

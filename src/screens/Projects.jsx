@@ -2,25 +2,31 @@ import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import { FaShare, FaGithub } from 'react-icons/fa';
 import projects from '../data/projects.json';
+import projectsEs from '../data/projectsEs.json';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t } = useTranslation();
+  const language = localStorage.getItem('language') || 'en';
+  let projectsData = language == 'es' ? projectsEs : projects;
+
   return (
     <section id="projects">
-      <SectionTitle text={'Projects'} />
+      <SectionTitle text={t('header.projects')} />
       <div className="cards">
-        {projects.map((item, index) => (
-          <div className="cardContainer">
+        {projectsData.map((item, index) => (
+          <div className="cardContainer" key={index}>
             <img className="projectImg" src={item.image} alt="flex movies" />
             <div className="content">
               <div className="head">
                 <span className={item.finished ? 'status-finished' : 'status-notFinished'}>
-                  {item.finished ? 'Finished' : 'Currently Working on'}
+                  {item.finished ? t('projects.finished') : t('projects.notFinished')}
                 </span>
                 <span className="title">{item.title}</span>
               </div>
               <div className="techs">
-                {item.techs.map((item) => (
-                  <img src={item} alt="techs" />
+                {item.techs.map((item, index) => (
+                  <img src={item} alt="techs" key={index} />
                 ))}
               </div>
               <p className="description">{item.description}</p>

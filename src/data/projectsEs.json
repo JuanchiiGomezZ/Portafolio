@@ -1,0 +1,59 @@
+[
+  {
+    "title": "FITWAY",
+    "image": "https://i.postimg.cc/GhFVBgyW/Fitway.png",
+    "finished": false,
+    "description": "FITWAY es una poderosa aplicación móvil para la gestión de rutinas de gimnasio con una interfaz intuitiva y personalizable. Los usuarios pueden crear rutinas adaptadas a sus objetivos seleccionando ejercicios y configurando repeticiones, series y períodos de descanso.",
+    "techs": [
+      "https://i.postimg.cc/ydKwGYVf/atom-1.png",
+      "https://i.postimg.cc/cLpqQBPG/js-2.png"
+    ],
+    "live": "https://teal-clutch-e48.notion.site/FITWAY-889f219d5df64b34b425b50c224d72c4?pvs=4"
+  },
+  {
+    "title": "Flex movies center",
+    "image": "https://i.postimg.cc/fLFFn60P/Flex-Movies.png",
+    "finished": true,
+    "description": "Proyecto Full Stack creado utilizando ReactJS para el frontend y NodeJS con MySQL para el backend, aprovechando la API de TMDB. Las características incluyen inicio de sesión y registro de usuarios, así como la capacidad de agregar películas a favoritos. Implementación completa de una API RESTful.",
+    "techs": ["https://i.postimg.cc/ydKwGYVf/atom-1.png", "https://i.postimg.cc/rpxBgtL0/sass-1.png"],
+    "live": "https://flex-movies.vercel.app/",
+    "repo": "https://github.com/JuanchiiGomezZ/Apple-Concept"
+  },
+  {
+    "title": "Apple-Concept Ecomerce",
+    "image": "https://i.postimg.cc/GpL6kPCX/Apple-Concept.png",
+    "finished": true,
+    "description": "Ecommerce inspirado en Apple, desarrollado tras completar el curso de ReactJS en CODERHOUSE. Fusionando creatividad y diseño, creé una experiencia de usuario original. Firebase sirvió como la base de datos.",
+    "techs": [
+      "https://i.postimg.cc/ydKwGYVf/atom-1.png",
+      "https://i.postimg.cc/cLpqQBPG/js-2.png",
+      "https://i.postimg.cc/rpxBgtL0/sass-1.png"
+    ],
+    "live": "https://apple-concept.vercel.app/",
+    "repo": "https://github.com/JuanchiiGomezZ/Apple-Concept"
+  },
+  {
+    "title": "React Native ToDo App",
+    "image": "https://i.postimg.cc/8zBqJKqF/TodoApp.png",
+    "finished": true,
+    "description": "Una aplicación de lista de tareas diseñada para ayudar a los usuarios a gestionar tareas y horarios. Permite la creación de listas de tareas, la configuración de prioridades, el seguimiento de la finalización de tareas y puede incluir características adicionales como recordatorios, fechas de vencimiento y notas. Esta aplicación fue desarrollada en grupo.",
+    "techs": [
+      "https://i.postimg.cc/ydKwGYVf/atom-1.png",
+      "https://i.postimg.cc/cLpqQBPG/js-2.png"
+    ],
+    "repo": "https://github.com/JuanchiiGomezZ/ToDoApp"
+  },
+  {
+    "title": "LENO Ecomerce",
+    "image": "https://i.postimg.cc/tT7fcX7P/Leno.png",
+    "finished": true,
+    "description": "Proyecto creado como culminación de un curso de JavaScript en CODERHOUSE. Demostrando mi experiencia en diseño y desarrollo, cada aspecto de esta creación es completamente original.",
+    "techs": [
+      "https://i.postimg.cc/vZgFgNqv/html-5.png",
+      "https://i.postimg.cc/ncwfLJkz/css-3-2.png",
+      "https://i.postimg.cc/cLpqQBPG/js-2.png"
+    ],
+    "live": "https://leno-juanchiigomezz.vercel.app/",
+    "repo": "https://github.com/JuanchiiGomezZ/LENO"
+  }
+]
