@@ -39,10 +39,10 @@ const Projects = () => {
                 )}
 
                 {item.repo && (
-                  <div className="actionBtn" target="_blank" href={item.repo}>
+                  <a className="actionBtn" target="_blank" href={item.repo}>
                     <FaGithub />
                     <span>Code</span>
-                  </div>
+                  </a>
                 )}
               </div>
             </div>

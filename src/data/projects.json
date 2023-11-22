@@ -5,7 +5,8 @@
     "finished": false,
     "description": "FITWAY is a powerful mobile application for gym routine management with an intuitive and customizable interface. Users can create routines tailored to their goals by selecting exercises and setting repetitions, sets, and rest periods.",
     "techs": ["https://i.postimg.cc/ydKwGYVf/atom-1.png", "https://i.postimg.cc/cLpqQBPG/js-2.png"],
-    "live": "https://teal-clutch-e48.notion.site/FITWAY-889f219d5df64b34b425b50c224d72c4?pvs=4"
+    "live": "https://teal-clutch-e48.notion.site/FITWAY-889f219d5df64b34b425b50c224d72c4?pvs=4",
+    "repo":"https://github.com/JuanchiiGomezZ/Fitway-prototype-frontend"
   },
   {
     "title": "Flex movies center",

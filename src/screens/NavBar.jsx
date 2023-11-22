@@ -3,7 +3,6 @@ import logoWhite from '../assets/logo-white.png';
 import logoBlack from '../assets/logo-Black.png';
 
 import { HiDownload } from 'react-icons/hi';
-import { HiLanguage } from 'react-icons/hi2';
 import i18next from '../services/i18n';
 import { useTranslation } from 'react-i18next';
 import languages from '../locales/languages.json';
@@ -52,17 +51,14 @@ const navBar = () => {
                 <img
                   src={item.icon}
                   className={language == item.abbreviation && 'activeFlag'}
+                  key={item.abbreviation}
                   onClick={() => {
                     handleChangeLanguage(item.abbreviation);
                   }}
                 />
               ))}
             </div>
-            <a
-              href="https://drive.google.com/file/d/1UOLCIRN7un2IMVQmFXhu3gg6yMvylg7_/view?usp=sharing"
-              target="_blank"
-              className="curriculum"
-            >
+            <a href={t('resume')} target="_blank" className="curriculum">
               {t('header.resume')} <HiDownload fill={isScrolled ? 'black' : 'white'} />
             </a>
           </div>
@@ -73,22 +69,4 @@ const navBar = () => {
 };
 
 export default navBar;
-
-/*   return (
-    <header className={`${!isScrolled && 'headerTransparent'}`}>
-      <nav>
-        <div className="logoContainer">
-          <img src={isScrolled ? logoBlack : logoWhite} alt="myLogo" />
-        </div>
-        <div className="headerSections">
-          <a href="#home">Home</a>
-          <a href="#aboutMe">About me</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <a href="#" className="curriculum">
-          Curriculum <HiDownload fill={isScrolled ? 'black' : 'white'} />
-        </a>
-      </nav>
-    </header> */
+// https://drive.google.com/file/d/1MqOlL4TAT1V6wYzw9sMZXS-LpVHDDYvt/view?usp=sharing
